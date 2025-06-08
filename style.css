@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*
+font-family: "Arima", system-ui;
+font-family: "Poppins", sans-serif;
+font-family: "Open Sans", sans-serif;
+*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font: 500 16px/24px "Poppins", sans-serif;
+    color: #5b5757;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+    font-family: "Arima", system-ui;
+}
+
+/* ======================================  */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.pageHeader {
+    background-color: #31060f;
+    height: 90px;
+    display: flex;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 40px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 100px;
+    background-color: #e7ddc2;
+}
+.login a{
+    color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+}
+.login i{
+    font-size: 25px;
+}
+.logo{
+    height: 55px;
+    width: 90px;
+}
