@@ -153,7 +153,7 @@ h1 span{
 }
 
 .about{
-    background: url(/images/bg-image.png) no-repeat;
+    background: url(./images/bg-image.png) no-repeat;
     background-attachment: cover;
     width: 100%;
 }
