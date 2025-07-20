@@ -146,3 +146,215 @@ h1 span{
     color: white;
     background-color: #31060f;
 }
+
+.container , .about{
+    width: 1200px;
+    margin: auto;
+}
+
+.about{
+    background: url(/images/bg-image.png) no-repeat;
+    background-attachment: cover;
+    width: 100%;
+}
+
+.formarea{
+    position: relative;
+    height: 117px;
+    background-color: #ffffff;
+    align-content: center;
+    border: none;
+    border-radius: 22px;
+    margin-top: -58px;
+    box-shadow: 0px 0px 20px 0px #31060f36;
+    padding: 0px 40px 0px 40px;
+    overflow: hidden;
+}
+
+.form{ 
+    display: grid;
+    grid-template-columns: 350px 330px 330px auto;
+}
+
+.form .datafields{
+    border: none;
+    width: 220px;
+    margin-top: 15px;
+    color: #807d7d;
+    font-weight: 500;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.form button{
+    display: block;
+    height: 117px;
+    width: 190px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    border-radius: 0px 22px 22px 0px;
+    background-color: #31060f;
+    color: #ffffff;
+}
+
+button i{
+    margin-bottom: 17px;
+    font-size: 16px;
+}
+
+.about-icons ul{
+    display: grid;
+    grid-template-columns: repeat(3, 330px);
+    gap: 92px;
+    margin-top: 148px;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.icons li{
+    text-align: center;
+}
+
+.icons li i{
+    background-color: #31060f;
+    border-radius: 100px;
+    height: 110px;
+    width: 110px;
+    color: #ffffff;
+    font-size: 55px;
+    margin-bottom: 48px;
+    align-content: center;
+    justify-content: center;
+}
+
+.icons li h3{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+.icons li p{
+    margin-bottom: 83px;
+    font-size: 16px;
+}
+
+.actvth3{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+    margin-bottom: 62px;
+}
+
+.activities .bigh3{
+    font-size: 30px;
+}
+
+.actvtimg{
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
+    margin-bottom: 132px;
+}
+
+.actvtimg figure{
+    position: relative;
+    overflow: hidden;
+}
+
+.actvtimg figure p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 0px 20px 0px;
+}
+
+.populartourh3{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Arima", system-ui;
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+
+.populartourh3 .bigh3{
+    font-size: 30px;
+}
+
+.tours{
+    display: grid;
+    grid-template-columns: repeat(3, 370px);
+    grid-gap: 47px;
+    margin-bottom: 30px;
+}
+
+.tourlist1{
+    margin-bottom: 60px;
+}
+.tourlist1 figure{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.tourlist1 figure img{
+    border-radius: 18px;
+}
+
+.tourlist1 figure p{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    font-weight: 500;
+    margin: 0px 0px 11px 11px;
+    padding: 7px 10px 7px 10px;
+    background-color: #514c4a;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.tourlist1 .stars{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tourlist1 .stars p{
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 10px;
+}
+
+.tourlist1 h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.tourlist1 p{
+    line-height: 1.5;
+}
+
+.featurearea{
+    height: 925px;
+    background-color: #31060f;
+}
+
+.featurearea h2{
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.featurearea p{
+    color: #ffffff;
+    font-size: 18px;
+}
