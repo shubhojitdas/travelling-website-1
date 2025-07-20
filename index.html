@@ -11,40 +11,341 @@
 </head>
 
 <body>
-        <header class="pageHeader">
-            <section class="container">
+    <header class="pageHeader">
+        <section class="container">
+            <figure>
+                <img class="logo" src="/images/travel_logo.png" alt="logo">
+            </figure>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">Tour</a></li>
+                    <li><a href="#">Package</a></li>
+                    <li><a href="#">Offer</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <a href="#" class="login"><i class="fas fa-unlock-alt"></i>Login</a>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <!-- Banner starts here. -->
+        <section>
+            <div class="banner">
+                <img src="/images/banner_image.png" alt="banner image">
+                <div class="overlay">
+                    <h1><span>Explore</span> THE NEW WORLD</h1>
+                    <p>Discover and book tent camping, RV parks, cabins, treehouses, and glamping.</p>
+                    <a href="#">Discover Tour</a>
+                </div>
+            </div>
+        </section>
+        <!-- Banner ends here. -->
+
+        <!-- The about Section starts here. -->
+        <section class="about">
+            <div class="container">
+                <!-- The search form starts here -->
+                <div class="formarea">
+                    <form class="form">
+                        <label for="Keywords">
+                            Keywords<br>
+                            <input type="text" placeholder="Type Your Keywords" class="datafields">
+                        </label>
+
+                        <label for="Destination">Destination<br>
+                            <select name="Destination" id="destination" class="datafields">
+                                <option value="">Any</option>
+                                <option value="India">India</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Germany">Germany</option>
+                            </select>
+                        </label>
+
+                        <label for="Duration">Duration<br>
+                            <select name="Duration" id="duration" class="datafields">
+                                <option value="">Any</option>
+                                <option value="3d2n">3 Days 2 Nights</option>
+                                <option value="4d3n">4 Days 3 Nights</option>
+                                <option value="5d4n">5 Days 4 Nights</option>
+                                <option value="6d5n">6 Days 5 Nights</option>
+                            </select>
+                        </label>
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <br>Search Now
+                        </button>
+                    </form>
+                </div>
+                <!-- The search form ends here -->
+
+                <!-- The about icons starts here -->
+                <div class="about-icons">
+                    <Ul class="icons">
+                        <li>
+                            <i class="fa-solid fa-briefcase"></i>
+                            <h3>15 Years of Experiences</h3>
+                            <p>Host our co mmunity of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-car-side"></i>
+                            <h3>200+ Camps To Visit</h3>
+                            <p>Host our co mmunity of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                        </li>
+
+                        <li>
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3>Big Community</h3>
+                            <p>Host our co mmunity of good-natured campers, glampers, and RV travelers on your land or at your cabin.</p>
+                        </li>
+                    </Ul>
+                </div>
+            </div>
+            <!-- THe about icons ends here -->
+        </section>
+        <section class="activities">
+            <!-- Activity text with container -->
+            <div class="container">
+                <div class="actvth3">
+                    <h3 class="bigh3">By Activities</h3>
+                    <h3>View All Activities</h3>
+                </div>
+            </div>
+            
+            <!-- Activities images starts here -->
+            <div class="actvtimg">
                 <figure>
-                    <img class="logo" src="./images/logo.png" alt="logo">
+                    <img src="/images/backpack.png" alt="backpack">
+                    <p>Backpack</p>
                 </figure>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Destination</a></li>
-                        <li><a href="#">Tour</a></li>
-                        <li><a href="#">Package</a></li>
-                        <li><a href="#">Offer</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                    <a href="#" class="login"><i class="fas fa-unlock-alt"></i>Login</a>
-                </nav>
-            </section>
-        </header>
-        <main>
-            <section>
-                <div class="banner">
-                    <img src="./images/banner.png" alt="banner image">
-                    <div class="overlay">
-                        <h1><span>Explore</span> THE NEW WORLD</h1>
-                        <p>Discover and book tent camping, RV parks, cabins, treehouses, and glamping.</p>
-                        <a href="#">Discover Tour</a>
+                <figure>
+                    <img src="/images/basecamp-tour.png" alt="basecamp tour">
+                    <p>Basecamp Tour</p>
+                </figure>
+                <figure>
+                    <img src="/images/family-camping.png" alt="family camping">
+                    <p>Family Camping</p>
+                </figure>
+                <figure>
+                    <img src="/images/glamping.png" alt="glamping">
+                    <p>Glamping</p>
+                </figure>
+            </div>
+        </section>
+        <!-- All activites section ends here -->
+        
+        <!-- Tours section starts here. -->
+        <Section class="populartours">
+            <div class="container">
+                <div class="populartourh3">
+                        <h3 class="bigh3">Our Popular Tours</h3>
+                        <h3>View All Activities</h3>
+                </div>
+            
+                <div class="tours">
+                    <!-- Travel list starts here -->
+                    <div class="tourlist1">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/images/munich-beach.png" alt="munich beach">
+                                    <p>Popular Tour</p>
+                                </figure>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p class="review">(1 Review)</p>
+                                </div>
+                                <h4>
+                                    Munich Springfest Camping
+                                </h4>
+                                <p>
+                                    3 Days <br>
+                                    Munich, Germany <br>
+                                    From <strike>$3,900</strike> <b>$3,800</b>
+                                </p>
+                            </li>
+            
+                        </ul>
+                    </div>
+            
+                    <div class="tourlist1">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/images/mont-blanc.png" alt="munich beach">
+                                    <p>Popular Tour</p>
+                                </figure>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p class="review">(2 Reviews)</p>
+                                </div>
+                                <h4>
+                                        9 Days Tour du Mont Blanc Camping
+                                        Trek
+                                </h4>
+            
+                                <p>
+                                        9 Days 8 Nights <br>
+                                        Chamonix, France <br>
+                                        From <strike>$6,300</strike> <b>$5,800</b>
+                                </p>
+                            </li>
+            
+                        </ul>
+                    </div>
+            
+                    <div class="tourlist1">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/images/mont-blanc-2.png" alt="munich beach">
+                                    <p>Popular Tour</p>
+                                </figure>
+                                    <div class="stars">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <p class="review">(1 Review)</p>
+                                    </div>
+                                    <h4>
+                                        3 Days Camping Tour du Mont Blanc
+                                    </h4>
+                                    <p>
+                                        3 Days <br>
+                                        Laon, France <br>
+                                        From <b>$5,500</b>
+                                    </p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-        </main>
-        <footer>
-            Footer
-        </footer>
-</body>
+            </div>
+        </Section>
 
-</html>
+        <Section class="populartours">
+            <div class="container">
+                <div class="populartourh3">
+                    <h3 class="bigh3">New Tours</h3>
+                    <h3>View All Activities</h3>
+                </div>
+        
+                <div class="tours">
+                    <!-- Travel list starts here -->
+                    <div class="tourlist1">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/images/rifugio.png" alt="munich beach">
+                                    <p>New Tour</p>
+                                </figure>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p class="review">(1 Review)</p>
+                                </div>
+                                <h4>
+                                    Courmayeur – Rifugio Giorgio Bertone <br>
+                                    7 Days 6 Night
+                                </h4>
+                                <p>
+                                    7 Days 6 Nights <br>
+                                    Courmayeur, Aosta Valley, Italy <br>
+                                    From <strike>$5,100</strike> <b>$4,900</b>
+                                </p>
+                            </li>
+        
+                        </ul>
+                    </div>
+        
+                    <div class="tourlist1">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/images/Vivonne-Bay.png" alt="munich beach">
+                                    <p>Popular Tour</p>
+                                </figure>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p class="review">(1 Review)</p>
+                                </div>
+                                <h4>
+                                    5 Days Vivonne Bay Campground, <br>
+                                    Kangaroo Island, South Australia
+                                </h4>
+        
+                                <p>
+                                    5 Days 4 Nights <br>
+                                    Vivonne Bay SA, Australia <br>
+                                    From <b>$3,900</b>
+                                </p>
+                            </li>
+        
+                        </ul>
+                    </div>
+        
+                    <div class="tourlist1">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <img src="/images/Walker-Creek.png" alt="munich beach">
+                                    <p>Popular Tour</p>
+                                </figure>
+                                <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <p class="review">(1 Review)</p>
+                                </div>
+                                <h4>
+                                    Walker Creek Campground, Litchfield, <br>
+                                    Northern Territory
+                                </h4>
+                                <p>
+                                    3 Days 2 Nights <br>
+                                    California, USA <br>
+                                    From <b>$3,200</b>
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        <!-- Tours section ends here. -->
+        
+        <!-- The feature area starts here. -->
+        <section class="features">
+            <div class="featurearea">
+                <h2>Camper is the best way to find camping tours. Let’s make the most memorable adventures.</h2>
+                <p>Camper Tour is an incredible way to have an adventurous outdoor
+                experience of world renowned national parks and wilderness destinations
+                while hiking with only a light daypack and sleeping soundly in
+                comfortable, vehicle-accessible camps.</p>
+            </div>
+
+        </section>
+
+        
