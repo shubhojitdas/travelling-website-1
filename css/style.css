@@ -152,9 +152,10 @@ h1 span{
     margin: auto;
 }
 
-.about{
-    background: url(./images/bg-image.png) no-repeat;
+.about , .populartours .container .newsectionh3{
+    background: url(/images/bg-image.png) no-repeat;
     background-attachment: cover;
+    position: bottom;
     width: 100%;
 }
 
@@ -274,16 +275,18 @@ button i{
     padding: 0px 0px 20px 0px;
 }
 
-.populartourh3{
+.newsectionh3{
     display: flex;
     justify-content: space-between;
     font-family: "Arima", system-ui;
     font-size: 18px;
     margin-bottom: 35px;
+    color: #31060f;
 }
 
-.populartourh3 .bigh3{
+.newsectionh3 .bigh3{
     font-size: 30px;
+    color: #31060f;
 }
 
 .tours{
@@ -343,18 +346,259 @@ button i{
     line-height: 1.5;
 }
 
-.featurearea{
-    height: 925px;
+.features{
     background-color: #31060f;
+}
+.features .container{
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 65px;
+    padding: 200px 0 80px;
+}
+
+.featuresimg{
+    position: relative;
+}
+
+.featuresimg figure{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.featuresimg figure img{
+    width: 100%;
+}
+
+.featuresimg figure.hoverimg{
+    width: 330px;
+    position: absolute;
+    left: -150px;
+    top:-150px;
 }
 
 .featurearea h2{
     font-family: "Poppins", sans-serif;
     font-size: 30px;
+    font-weight: 500;
     color: #ffffff;
+    margin-bottom: 40px;
+    line-height: 1.25;
 }
 
 .featurearea p{
-    color: #ffffff;
+    color: #e8d8d8;
     font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 62px;
+}
+
+
+
+.tripoperation{
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-gap: 10px;
+}
+
+.tripoperation i{
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.tripoperation h3{
+    color: #e7ddc2;
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.tripoperation h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Arima", system-ui;
+    margin-bottom: 40px;
+}
+
+.tripoperation p{
+    font-family: "Arima", system-ui;
+    font-size: 16px;
+}
+
+.latestnews{
+    margin-top: 85px;
+}
+
+.news ul{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 35px;
+}
+
+.news ul li{
+    box-shadow: 0px 5px 5px 0px rgba(159, 91, 91, 0.3);
+    border-radius:35px;
+    overflow: hidden;
+}
+
+
+.news ul li figure img{
+    width: 100%;
+}
+
+.news .newstxt{
+    padding: 24px 24px 30px 24px;
+}
+
+.news ul li p{
+   margin-bottom: 28px;
+}
+
+.news ul li h4{
+    margin-bottom: 28px;
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 290px auto;
+    align-items: baseline;
+    font-weight: 600;
+}
+
+.news ul li h5 span{
+    font-weight: 400;
+    background-color: #d2d0d0;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+}
+
+.cta{
+    margin: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+.cta h2, p{
+    margin-bottom: 45px;
+    font-family: "Arima", system-ui;
+}
+
+.cta h2{
+    font-size: 30px;
+}
+
+.cta p{
+    font-size: 18px;
+}
+
+.cta a{
+    padding: 15px 20px 15px 20px;
+    background-color: #31060f;
+    color: #ffffff;
+    border-radius: 11px;
+}
+
+.testimonials{
+    margin-bottom: 140px;
+}
+
+.testimonials h2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.allreviews{
+    display: grid;
+    grid-template-columns: 33% 33% auto;
+    grid-gap: 80px;
+    padding: 0 20px;
+}
+
+.allreviews div.reviews{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+}
+
+.reviewTop{
+    display: flex;
+    justify-content:space-between;
+}
+
+.client figure{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.client{
+    display: flex;
+    justify-content:space-between;
+    padding-left: 30px;
+}
+
+.client h3, .client h4{
+    padding-left: 12px;
+}
+
+.footerarea{
+    height: auto;
+    background-color: #31060f;
+    padding: 95px 0px 95px 0px;
+}
+
+.footerarea .footercurrency figure{
+    padding-bottom: 38px;
+}
+
+.footerarea .footercurrency .footerdatafields{
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #fff;
+    padding: 15px 20px 15px 20px;
+    background-color: #525050;
+    overflow: hidden;
+}
+
+.footerarea .quicklinks{
+    display: grid;
+    grid-template-columns: 25% 25% 25% auto;
+    padding-bottom: 120px;
+}
+
+.footerarea .quicklinks h3{
+    color: #ffffff;
+    padding-bottom: 50px;
+}
+
+.footerarea .quicklinks p{
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.footerarea .quicklinks i{
+    color: #ffffff;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright h5{
+    color: #ac9f9f;
+    font-size: 14;
+    font-weight: 500;
+}
+
+.copyright ul li{
+    display: inline-block;
+    padding-left: 36px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
 }
